@@ -19,8 +19,7 @@ class ChatType extends AbstractType
                 'attr' => [
                     'Placeholder' => 'Enter a prompt',
                 ],
-            ])
-        ;
+            ]);
     }
 
     public function configureOptions(OptionsResolver $resolver): void

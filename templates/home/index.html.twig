@@ -17,5 +17,10 @@
         
     {{  form_end(form) }}
 
+    {% if answer is not empty %}
+        <h1> Here is the answer : {{ answer }}</h1>
+    {% endif %}
+
+
 </div>
 {% endblock %}
